@@ -13,6 +13,8 @@ namespace BattleShipForms
         public int length { get; set; }
         public int Id { get; set; }
         public int BoatCounterPos { get; set; }
+        public int MainPos { get; set; }
+        public bool Vertical { get; set; }
 
         public Boat()
         {

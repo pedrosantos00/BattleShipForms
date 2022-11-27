@@ -339,11 +339,12 @@
             this.label49.AutoSize = true;
             this.label49.BackColor = System.Drawing.Color.Cyan;
             this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label49.Location = new System.Drawing.Point(156, 49);
+            this.label49.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label49.Location = new System.Drawing.Point(3, 62);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(414, 20);
+            this.label49.Size = new System.Drawing.Size(399, 20);
             this.label49.TabIndex = 3;
-            this.label49.Text = "Please add your boats into Board by choosing the squares";
+            this.label49.Text = "Please add your Ship into Board by choosing the square";
             // 
             // label46
             // 
@@ -3577,6 +3578,7 @@
             // 
             this.button100.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button100.FlatAppearance.BorderSize = 0;
+            this.button100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
             this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button100.Location = new System.Drawing.Point(27, 26);
             this.button100.Name = "button100";
@@ -3604,6 +3606,7 @@
             this.button101.TabIndex = 12;
             this.button101.Text = "Generate Random Positions";
             this.button101.UseVisualStyleBackColor = false;
+            this.button101.Click += new System.EventHandler(this.button101_Click);
             // 
             // timer1
             // 
@@ -3627,12 +3630,14 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.No;
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GamePanel";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GamePanel";
+            this.Text = "BattleShip";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
