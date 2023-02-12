@@ -2279,6 +2279,7 @@
             this.panel4.Controls.Add(this.button98);
             this.panel4.Controls.Add(this.button99);
             this.panel4.Controls.Add(this.button100);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(445, 119);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(288, 285);

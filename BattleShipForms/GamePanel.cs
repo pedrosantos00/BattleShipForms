@@ -35,7 +35,6 @@ namespace BattleShipForms
             BotBoard = new Board(BotBoats, label49, panel4);
             LoadButtons();
             PlayerBoard.Panel.Cursor = new Cursor(Properties.Resources.Boat2.GetHicon());
-            panel4.Cursor = new Cursor(Properties.Resources.Hit.GetHicon());
             BotBoard.GenerateRandomShipPositions();
             panel4.Visible = false;
         }
