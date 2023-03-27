@@ -1,6 +1,9 @@
 ## Battleship Game
 A two-player Battleship game where one player is a human and the other is an AI opponent.
 
+![image](https://user-images.githubusercontent.com/62798656/228038987-2fe344dd-28cf-4798-b074-2e579f3d5311.png)
+
+
 ## Description
 Battleship is a classic game of strategy and logic. In this game, you and your AI opponent will take turns firing at the other's grid to try and sink all of their ships. The player who sinks all of the other player's ships first wins the game.
 
